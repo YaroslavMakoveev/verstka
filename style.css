@@ -369,6 +369,7 @@ body {
 
 .contact {
   margin-top: 105px;
+  margin-bottom: 163px;
 }
 
 .contact__inner {
@@ -408,7 +409,7 @@ body {
 
 .input__with__btn input {
   width: 100%;
-  padding: 10px 40px 10px 15px; /* справа место под кнопку */
+  padding: 10px 40px 10px 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
   outline: none;
@@ -427,4 +428,72 @@ body {
   padding: 8px 22px;
   color: #fff;
   border-radius: 8px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+
+.footer__logo h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer__logo p {
+  max-width: 372px;
+  width: 100%;
+  margin-top: 15px;
+
+  font-size: 16px;
+  line-height: auto;
+}
+
+.footer__logo h3 {
+  margin-top: 25px;
+}
+
+.footer__about h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.footer__about a {
+  color: #fff;
+}
+
+.footer__about li {
+  line-height: 186%;
+}
+
+.footer__about li:first-child {
+  margin-top: 15px;
+}
+
+.footer__contact {
+  max-width: 282px;
+  width: 100%;
+}
+
+.footer__contact h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.footer__contact p {
+  margin-top: 18px;
+}
+
+.footer__social {
+  width: 184px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
